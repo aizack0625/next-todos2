@@ -301,7 +301,7 @@ export default function Home() {
           >
             <div className="flex items-center justify-center gap-2">
               <TodoIcon />
-              <span>Todoリストじょ</span>
+              <span>するじょ</span>
             </div>
           </button>
           <button
@@ -314,7 +314,7 @@ export default function Home() {
           >
             <div className="flex items-center justify-center gap-2">
               <ShoppingIcon />
-              <span>買い物リストじょ</span>
+              <span>買うじょ</span>
             </div>
           </button>
         </div>
@@ -323,7 +323,7 @@ export default function Home() {
           <div className="bg-white/90 dark:bg-gray-800/90 p-6 rounded-xl shadow-lg backdrop-blur-sm border-t-4 border-indigo-500">
             <div className="flex items-center gap-3 mb-6">
               <TodoIcon />
-              <h2 className="text-2xl font-bold">Todoリストじょ</h2>
+              <h2 className="text-2xl font-bold">するじょ</h2>
             </div>
             <form onSubmit={addTodo} className="mb-6">
               <div className="flex gap-2">
@@ -394,7 +394,7 @@ export default function Home() {
           <div className="bg-white/90 dark:bg-gray-800/90 p-6 rounded-xl shadow-lg backdrop-blur-sm border-t-4 border-emerald-500">
             <div className="flex items-center gap-3 mb-6">
               <ShoppingIcon />
-              <h2 className="text-2xl font-bold">買い物リストじょ</h2>
+              <h2 className="text-2xl font-bold">買うじょ</h2>
             </div>
             <form onSubmit={addShoppingItem} className="mb-6">
               <div className="flex gap-2">
